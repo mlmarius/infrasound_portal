@@ -66,6 +66,7 @@ function getAllStations(){
         }
         else{
             new StationQuery(serverAddress)
+                .protocol(serverProtocol)
                 .networkCode(networkSelector)
                 .channelCode(channelSelector)
                 .queryChannels()
