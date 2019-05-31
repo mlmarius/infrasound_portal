@@ -327,8 +327,8 @@ $('#downloadData').click(function(){
             .networkCode(Array.from(nas['networks']).join(','))
             .stationCode(Array.from(nas['stations']).join(','))
             .channelCode(channelSelector)
-            .startTime(moment('2019-05-01T10:30:00'))
-            .endTime(moment('2019-05-01T11:30:00'));
+            .startTime(selectedStartDate)
+            .endTime(selectedEndDate);
         console.log(request.formURL());
         window.location.href = request.formURL();
     });
