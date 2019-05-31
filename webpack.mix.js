@@ -11,6 +11,9 @@ const mix = require('laravel-mix');
  |
  */
 
-mix.js('resources/js/app.js', 'public/js')
-    .extract(['seisplotjs-waveformplot', 'seisplotjs-fdsnstation'])
-    .sass('resources/sass/app.scss', 'public/css');
+mix.js('resources/js/download.js', 'public/js')
+    .extract(['seisplotjs-waveformplot', 'seisplotjs-fdsnstation']);
+
+mix.js('resources/js/stations.js', 'public/js');
+
+mix.sass('resources/sass/app.scss', 'public/css');

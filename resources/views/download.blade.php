@@ -1,14 +1,9 @@
 @extends('layouts.main')
 
 @section('content')
-    <div class="row">
-        <div class="col-12">
-            <h1>Infrasound stations</h1>
-        </div>
-    </div>
 
     <div class="row">
-        <div class="col-4">
+        <div class="col-5">
             <form>
                 <div class="row">
                     <div class="col">
@@ -17,7 +12,7 @@
                 </div>
             </form>
         </div>
-        <div class="col-6 offset-2">
+        <div class="col-6 offset-1">
             <form>
                 <div class="row justify-content-end no-gutters">
                     <div class="col-4">
@@ -42,7 +37,7 @@
                 </div>
             </form>
         </div>
-        <div class="col-4 mt-1 mb-1">
+        <div class="col-5 mt-1 mb-1">
             <div class="row">
                 <div class="col-6" style="line-height: 37px;">
                         Selected stations: <span id="selectedStationCount">0</span>
@@ -61,9 +56,9 @@
         </div>
         <div class="stations col-12"></div>
         <div class="station-plots col-12">
-            <div class="row mt-5">
-                <div class="col-10 offset-1 plot"></div>
+            <div class="row mt-5 plot clearfix">
             </div>
+            <div class="clearfix"></div>
         </div>
     </div>
 @endsection
@@ -72,9 +67,11 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.1/js/tempusdominus-bootstrap-4.min.js"></script>
+<script src="{{ asset('js/manifest.js') }}" type="text/javascript"></script>
+<script src="{{ asset('js/vendor.js') }}" type="text/javascript"></script>
+<script src="{{ asset('js/download.js') }}" type="text/javascript"></script>
 @endpush
 
 @push('stylesheets')
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.1/css/tempusdominus-bootstrap-4.min.css" />
 @endpush

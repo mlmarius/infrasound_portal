@@ -9,6 +9,18 @@
 
 @import '~open-iconic/font/css/open-iconic-bootstrap.css';
 
+body{
+    background-color: #fff;
+}
+
+.page-footer {
+    padding: 2.5rem 0;
+    color: #999;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-top: .05rem solid #e5e5e5;
+}
+
 .navbar-laravel {
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);

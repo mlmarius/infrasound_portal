@@ -11,4 +11,6 @@
 |
 */
 
-Route::get('/', 'HomeController@index');
+Route::get('/', 'HomeController@home')->name('home');
+Route::get('/download', 'HomeController@download')->name('download_data');
+Route::get('/memorandum', 'HomeController@memorandum')->name('memorandum');

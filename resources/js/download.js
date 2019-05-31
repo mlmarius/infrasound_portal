@@ -71,12 +71,24 @@ function getAllStations(){
                 .channelCode(channelSelector)
                 .queryChannels()
                 .then(function(staml) {
+                    function compare(a,b){
+                        if(a.codes() > b.codes()){
+                            return 1;
+                        }
+                        else if(a.codes() < b.codes()){
+                            return -1;
+                        }
+                        return 0
+                    }
                     serverData = staml.reduce(function(acc, val) {
                         if (val && val.stations) {
                             acc = acc.concat(val.stations());
                         }
                         return acc;
                     }, [] );
+
+                    serverData = serverData.sort(compare);
+
                     if(serverData.length > 0){
                         serverData[0].__proto__.selected = function(val){
                             if(val == undefined){
@@ -250,8 +262,9 @@ function plotStation(net, sta, channelSelector, from, to){
     dataSelect(net, sta, channelSelector, from, to)
         .then(function(result){
             let s = result.segments[0];
-            let svgDiv = d3.select('.plot').append("div");
-            svgDiv.append('h3').text(`${net}.${sta} ${from.format('YYYY-MM-DD HH:mm:ss')} => ${to.format('YYYY-MM-DD HH:mm:ss')}`).classed('text-center', true);
+            let container = d3.select('.plot').append("div").attr('class', 'col-6');
+            container.append('h3').text(`${net}.${sta}`).classed('text-center', true);
+            let svgDiv = container.append("div").attr("style", "height:200px;");
             svgDiv.classed("svg-container-wide", true);
             try{
                 let seismogram = new Seismograph(svgDiv, s, result.startDate, result.endDate);
@@ -259,7 +272,7 @@ function plotStation(net, sta, channelSelector, from, to){
                     console.log(result.segments[i]);
                     seismogram.append(result.segments[i]);
                 }
-                seismogram.setWidthHeight(1000,200);
+                //seismogram.setWidthHeight(1500,200);
                 seismogram.draw();
             }
             catch (e) {
@@ -328,7 +341,10 @@ function showPlots(){
             let net, sta;
             [net, sta] = station.codes().split('.');
             console.log(net, sta);
-            plotStation(net, sta, channelSelector, moment('2019-05-01T10:30:00'), moment('2019-05-01T11:30:00'));
+            // plotStation(net, sta, channelSelector, moment('2019-05-01T10:30:00'), moment('2019-05-01T11:30:00'));
+            console.log(selectedStartDate);
+            console.log(selectedEndDate);
+            plotStation(net, sta, channelSelector, selectedStartDate, selectedEndDate);
         });
     });
 

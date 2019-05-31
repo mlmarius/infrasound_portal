@@ -6,7 +6,16 @@ use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
-    public function index(Request $request){
-        return view('welcome');
+
+    public function home(Request $request){
+        return view('home');
+    }
+
+    public function download(Request $request){
+        return view('download');
+    }
+
+    public function memorandum(Request $request){
+        return view('memorandum');
     }
 }
