@@ -47,7 +47,7 @@
                             <a class="nav-link" href="{{@route('home')}}">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link {{ Request::is('download') ? 'active' : '' }}" href="{{@route('download_data')}}">Downlad data</a>
+                            <a class="nav-link {{ Request::is('download') ? 'active' : '' }}" href="{{@route('download_data')}}">Download data</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link {{ Request::is('memorandum') ? 'active' : '' }}" href="{{@route('memorandum')}}">Memorandum of understanding</a>
