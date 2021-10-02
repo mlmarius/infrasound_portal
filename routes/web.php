@@ -13,4 +13,8 @@
 
 Route::get('/', 'HomeController@home')->name('home');
 Route::get('/download', 'HomeController@download')->name('download_data');
-Route::get('/memorandum', 'HomeController@memorandum')->name('memorandum');
+Route::get('/history/memorandum', 'HomeController@memorandum')->name('memorandum');
+Route::get('/history/stations', 'HomeController@stations')->name('stations');
+Route::get('/ceein-bulletins', 'HomeController@bulletins')->name('bulletins');
+Route::get('/news', 'HomeController@news')->name('news');
+Route::get('/publications', 'HomeController@publications')->name('publications');

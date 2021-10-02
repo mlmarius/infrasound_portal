@@ -47,10 +47,23 @@
                             <a class="nav-link" href="{{@route('home')}}">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link {{ Request::is('download') ? 'active' : '' }}" href="{{@route('download_data')}}">Download data</a>
+                            <a class="nav-link" href="{{@route('download_data')}}">Download data</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link {{ Request::is('memorandum') ? 'active' : '' }}" href="{{@route('memorandum')}}">Memorandum of understanding</a>
+                            <a class="nav-link" href="{{@route('news')}}">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{@route('bulletins')}}">Ceein Bulletins</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{@route('publications')}}">Publications</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">History</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="{{@route('stations')}}">Stations</a>
+                                <a class="dropdown-item" href="{{@route('memorandum')}}">Memorandum of understanding</a>
+                            </div>
                         </li>
                     </ul>
                 </div>
@@ -61,11 +74,16 @@
 </div>
 
 <footer class="page-footer mt-5" align="center">
-    <img src="images/logo_resized.png">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="images/CSFK_logo.png" height="70">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="images/IAP_logo.jpg" height="70">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="images/ZAMG_logo.png" height="70">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</footer>
+    <img src="/images/logo_resized.png">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="/images/CSFK_logo.png" height="70">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="/images/IAP_logo.jpg" height="70">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="/images/ZAMG_logo.png" height="70">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</footer>
 </div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 @stack('scripts')
+
 </body>
 </html>

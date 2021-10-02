@@ -18,4 +18,20 @@ class HomeController extends Controller
     public function memorandum(Request $request){
         return view('memorandum');
     }
+
+    public function stations(Request $request){
+        return view('stations');
+    }
+
+    public function bulletins(Request $request){
+        return view('bulletins');
+    }
+
+    public function news(Request $request){
+        return view('news');
+    }
+
+    public function publications(Request $request){
+        return view('publications');
+    }
 }
