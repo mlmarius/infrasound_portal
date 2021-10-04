@@ -155,5 +155,14 @@
                 </li>
             </ul>
         </div>
+
+        <div class="col">
+            <h3>Bulletins</h3>
+            <ul>
+                <li>
+                    <a href="/docs/CEEIN_Esupplement.pdf">CEEIN Esupplement</a>
+                </li>
+            </ul>
+        </div>
     </main>
 @endsection
