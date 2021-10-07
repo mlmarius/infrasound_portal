@@ -53,7 +53,7 @@
                             <a class="nav-link" href="{{@route('news')}}">News</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{{@route('bulletins')}}">Ceein Bulletins</a>
+                            <a class="nav-link" href="{{@route('bulletins')}}">CEEIN Bulletins</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="{{@route('publications')}}">Publications</a>
