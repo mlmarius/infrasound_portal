@@ -4,7 +4,9 @@
     <main role="main" class="row">
         <div class="col">
             <h3>Stations</h3>
-            <p>Work in progress</p>
+            <div class="text-center">
+                <img src="/docs/ceein_stations.png" style="max-width: 100%; height: auto;">
+            </div>
         </div>
     </main>
 @endsection

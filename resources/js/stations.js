@@ -146,3 +146,45 @@ google.maps.event.addListener(marker0cdaadcfgbfgbngf43dfsg434452354rf2, 'click',
 });
 
 
+var infowindow0MAAG1 = new google.maps.InfoWindow({
+    content: "Country: <b>Ucraina</b><br/>    Station code: <b>MAAG1</b>"
+});
+
+var marker0MAAG1  = new google.maps.Marker({
+    position: new google.maps.LatLng('50.7','29.23'),
+    icon: markerICON,//'img/marker_icon.png',
+    map: map
+});
+
+google.maps.event.addListener(marker0MAAG1, 'click', function() {
+    infowindow0MAAG1.open(map,marker0MAAG1);
+});
+
+
+var infowindow0MAAG2 = new google.maps.InfoWindow({
+    content: "Country: <b>Ucraina</b><br/>    Station code: <b>MAAG2</b>"
+});
+
+var marker0MAAG2  = new google.maps.Marker({
+    position: new google.maps.LatLng('48.56','26.46'),
+    icon: markerICON,//'img/marker_icon.png',
+    map: map
+});
+
+google.maps.event.addListener(marker0MAAG2, 'click', function() {
+    infowindow0MAAG2.open(map,marker0MAAG2);
+});
+
+var infowindow0GRDI = new google.maps.InfoWindow({
+    content: "Country: <b>Ucraina</b><br/>    Station code: <b>GRDI</b>"
+});
+
+var marker0GRDI  = new google.maps.Marker({
+    position: new google.maps.LatLng('50.6','29.45'),
+    icon: markerICON,//'img/marker_icon.png',
+    map: map
+});
+
+google.maps.event.addListener(marker0GRDI, 'click', function() {
+    infowindow0GRDI.open(map,marker0GRDI);
+});

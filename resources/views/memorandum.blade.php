@@ -156,13 +156,13 @@
             </ul>
         </div>
 
-        <div class="col">
-            <h3>Bulletins</h3>
-            <ul>
-                <li>
-                    <a href="/docs/Memorandum_CEEIN_Ukr.pdf">Memorandum</a>
-                </li>
-            </ul>
-        </div>
+{{--        <div class="col">--}}
+{{--            <h3>Bulletins</h3>--}}
+{{--            <ul>--}}
+{{--                <li>--}}
+{{--                    <a href="/docs/Memorandum_CEEIN_Ukr.pdf">Memorandum</a>--}}
+{{--                </li>--}}
+{{--            </ul>--}}
+{{--        </div>--}}
     </main>
 @endsection
