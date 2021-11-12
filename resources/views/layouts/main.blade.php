@@ -56,7 +56,7 @@
                             <a class="nav-link" href="{{@route('bulletins')}}">CEEIN Bulletins</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{{@route('publications')}}">Publications</a>
+                            <a class="nav-link" href="{{@route('publications')}}">Dissemination</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">History</a>

@@ -5,7 +5,7 @@
         <div class="col">
             <h3>Stations</h3>
             <div class="text-center">
-                <table class="table">
+                <table class="table table-striped">
                     <thead>
                         <tr>
                             <th>Station</th>
