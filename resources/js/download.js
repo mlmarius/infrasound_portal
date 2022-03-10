@@ -358,12 +358,14 @@ function hidePlots(){
 $(function () {
     $('#datetimeFrom').datetimepicker();
     $('#datetimeFrom').on('hide.datetimepicker', function(event){
-        selectedStartDate = event.date;
+        selectedStartDate = moment(event.date);
+        selectedStartDate.utcOffset(0, true);
         refillTable();
     });
     $('#datetimeTo').datetimepicker();
     $('#datetimeTo').on('hide.datetimepicker', function(event){
-        selectedEndDate = event.date;
+        selectedEndDate = moment(event.date);
+        selectedEndDate.utcOffset(0, true);
         refillTable();
     });
 });
