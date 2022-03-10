@@ -55,7 +55,7 @@ google.maps.event.addListener(marker0cdaadc7f30fadsfdsve, 'click', function() {
 
 
 var infowindow0cdaasvsdvbfd = new google.maps.InfoWindow({
-    content: "Country: <b>Romania</b><br/>    Station code: <b>BURARI</b><br/>   Aperture: <b>1.2 km</b><br>  No. of elements: <b>4</b><br/> Date of installation: <b>2016.07.27</b> <br/> co-located with seismic array "
+    content: "Country: <b>Romania</b><br/>    Station code: <b>BURARI</b><br/>   Aperture: <b>1.2 km</b><br>  No. of elements: <b>2016-2019 4, 2019-present 6</b><br/> Date of installation: <b>2016.07.27</b> <br/> co-located with seismic array "
 });
 
 var marker0cdaadc7f30sfwe4vber5e  = new google.maps.Marker({
