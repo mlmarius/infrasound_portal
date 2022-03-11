@@ -38,7 +38,7 @@ google.maps.event.addListener(marker0cdaadc7f30fa6a5324, 'click', function() {
 
 
 var infowindow0cdaa15e3wfdsf = new google.maps.InfoWindow({
-    content: "Country: <b>Romania</b><br/>    Station code: <b>IPLOR</b><br/>   Aperture: <b>2.4 km</b><br>  No. of elements: <b>6</b><br/> Date of installation: <b>2009-2012</b> <br/> co-located with seismic array "
+    content: "Country: <b>Romania</b><br/>    Station code: <b>IPLOR</b><br/>   Aperture: <b>2.4 km</b><br>  No. of elements: <b>2009-2018 6, 2019-present 4</b><br/> Date of installation: <b>2009-2012</b> <br/> co-located with seismic array "
 });
 
 var marker0cdaadc7f30fadsfdsve  = new google.maps.Marker({
