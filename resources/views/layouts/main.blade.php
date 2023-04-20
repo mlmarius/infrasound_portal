@@ -77,7 +77,7 @@
     <img src="/images/logo_resized.png">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <img src="/images/CSFK_logo.png" height="70">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <img src="/images/IAP_logo.jpg" height="70">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="/images/GSA_logo.png" height="70">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</footer>
+    <img src="/images/GSA_logo.jpg" height="70">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</footer>
 </div>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
