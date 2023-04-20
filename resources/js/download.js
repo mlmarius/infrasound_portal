@@ -16,7 +16,7 @@ const serverProtocol = 'http';
 const serverHost = '195.189.145.35';
 const serverPort = '8080';
 const serverAddress = `${serverHost}:${serverPort}`;
-const networkSelector = 'R1,HN,OE';
+const networkSelector = 'C9,R1,HN,OE';
 const channelSelector = 'BDF';
 
 let selectedStartDate;
