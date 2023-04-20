@@ -117,9 +117,9 @@
                 </tr>
                 <tr>
                     <th scope="col">Austria</th>
-                    <th scope="col">ZAMG</th>
-                    <th scope="col">47.78</th>
-                    <th scope="col">16.03</th>
+                    <th scope="col">ISCO</th>
+                    <th scope="col">47.93</th>
+                    <th scope="col">15.87</th>
                     <th scope="col">0.7</th>
                     <th scope="col">4</th>
                     <th scope="col">to be installed later in 2018</th>

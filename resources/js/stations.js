@@ -132,11 +132,11 @@ google.maps.event.addListener(marker0cdaadcfgbfgbngf434rf2, 'click', function() 
 
 
 var infowindow0cdbhdadsadw325rbtr = new google.maps.InfoWindow({
-    content: "Country: <b>Austria</b><br/>    Station code: <b>ZAMG</b><br/>   Aperture: <b>0.7 km</b><br>  No. of elements: <b>4</b><br/> Date of installation: <b>to be installed later in 2018</b> <br/> mobile station"
+    content: "Country: <b>Austria</b><br/>    Station code: <b>ISCO</b><br/>   Aperture: <b>0.7 km</b><br>  No. of elements: <b>4</b><br/> Date of installation: <b>to be installed later in 2018</b> <br/> mobile station"
 });
 
 var marker0cdaadcfgbfgbngf43dfsg434452354rf2  = new google.maps.Marker({
-    position: new google.maps.LatLng('47.78','16.03'),
+    position: new google.maps.LatLng("47.93", "15.87"),
     icon: markerICON,//'img/marker_icon.png',
     map: map
 });
