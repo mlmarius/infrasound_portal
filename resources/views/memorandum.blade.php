@@ -7,7 +7,7 @@
             <h4>Memorandum of Understanding for the collaboration of the Central and Eastern European Infrasound Network</h4>
             <p align="center">
                 Between the
-                Zentralanstalt für Meteorologie und Geodynamik (ZAMG), Vienna, Austria,
+                GeoSphere Austria, Vienna, Austria,
                 Institute of Atmospheric Physics of the Czech Academy of Sciences (CAS IAP), Prague, Czech Republic,
                 Research Centre for Astronomy and Earth Sciences of the Hungarian Academy of Sciences (MTA CSFK), Budapest, Hungary,
                 National Institute for Earth Physics (NIEP), Bucharest, Romania
