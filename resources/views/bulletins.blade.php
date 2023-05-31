@@ -7,7 +7,11 @@
             <ul>
                 <li>
                     <a href="/docs/CEEIN_Esupplement.pdf">CEEIN Esupplement</a>
+                </li>
+                <li>
                     <a href="/docs/CEEINbull2017-2022.kmz">CEEINbull2017-2022.kmz</a>
+                </li>
+                <li>
                     <a href="/docs/CEEINbull2017-2022.pdf">CEEINbull2017-2022.pdf</a>
                 </li>
             </ul>
