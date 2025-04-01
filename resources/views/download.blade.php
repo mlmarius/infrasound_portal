@@ -2,6 +2,12 @@
 
 @section('content')
 
+    
+    <div class="row mb-4">
+	<div class="col">
+	    <a href="http://ceein.infp.ro/fdsnws/" target="_blank">Open CEEIN FDSNWS</a>
+	</div>
+    </div>
     <div class="row">
         <div class="col-5">
             <form>
